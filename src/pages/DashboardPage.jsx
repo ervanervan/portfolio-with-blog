@@ -6,7 +6,7 @@ import DashCenter from "../components/DashCenter";
 const DashboardPage = () => {
   return (
     <div className="max-w-[78rem] mx-auto">
-      <div className="flex gap-4 flex-col md:flex-row">
+      <div className="flex gap-4 flex-col md:flex-row md:my-5">
         <DashLeft />
         <DashCenter />
         <DashRight />
