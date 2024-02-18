@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 import {
@@ -65,11 +66,11 @@ const DashLeft = () => {
               />
               <div
                 onClick={() => setOpen(!open)}
-                className="bg-lime-400 w-3 h-3 cursor-pointer rounded-full absolute top-20 right-[11.50rem] animate-pulse"
+                className="bg-lime-400 w-3 h-3 cursor-pointer rounded-full absolute top-20 left-24 animate-pulse"
               />
 
               {open && (
-                <div className="border border-lime-400 h-5 flex items-center justify-center rounded-2xl w-fit px-2 absolute top-[4.7rem] right-[4.25rem]">
+                <div className="border border-lime-400 h-5 flex items-center justify-center rounded-2xl w-fit px-2 absolute top-[4.7rem] left-28">
                   <p className="text-[10px] font-medium text-lime-300">
                     Open to freelancing
                   </p>
@@ -192,7 +193,7 @@ const DashLeft = () => {
                 <div className="flex gap-x-3">
                   <AppleMac color="white" height={24} width={24} />
                   <div className="-mt-1">
-                    <h3 className="text-sm font-medium">Front-End Developer</h3>
+                    <h3 className="text-sm font-medium">Front-End Dev</h3>
                     <p className="text-[9px]">Apple</p>
                   </div>
                 </div>
