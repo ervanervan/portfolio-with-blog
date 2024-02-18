@@ -17,21 +17,21 @@ const DashCenter = () => {
           stiffness: 200,
         },
       }}
-      className="w-full lg:w-fit "
+      className="w-full"
     >
-      <div className="  bg-[#1C1C1C] lg:bg-transparent rounded-2xl ">
+      <div className="bg-[#141414] md:bg-[#1d1d1d] lg:bg-transparent rounded-xl">
         <div>
-          <div className="flex gap-x-6 p-4">
-            <Code color="white" width={28} height={28} />
+          <div className="flex gap-x-6 p-4 items-center">
+            <Code color="white" width={100} height={100} />
 
             <div>
-              <h1 className="text-2xl font-RubikMedium text-neutral-300">
-                Semicolon,{" "}
-                <span className="text-sm text-neutral-400">A Dev Blog</span>
+              <h1 className="text-2xl font-medium text-neutral-300">
+                Semicolon,
+                <span className="text-sm text-neutral-400"> A Dev Blog</span>
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
-                I design and code beautifully simple things, and <br />{" "}
-                occasionally i write about them
+                I design and code beautifully simple things, and occasionally i
+                write about them
               </p>
             </div>
           </div>
@@ -39,59 +39,63 @@ const DashCenter = () => {
           <div className="border border-neutral-700 my-5" />
 
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link href={"/dashboard/djdj"}>
+            <Link to={""}>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="  flex items-center gap-x-3">
                   <img
                     width={1000}
                     height={1000}
                     className="w-24 h-24 object-cover rounded-md"
-                    src="/pic.jpg"
+                    src="/ervan.jpg"
                     alt=""
                   />
                   <div>
                     <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-RubikMedium">
+                    <h2 className="text-sm font-medium">
                       Smooth Animation with React and Framer Motion
                     </h2>
                   </div>
                 </div>
               </div>
             </Link>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <img
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/game.jpg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            <Link>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="  flex items-center gap-x-3">
+                  <img
+                    height={1000}
+                    width={1000}
+                    className="w-24 h-24 object-cover rounded-md"
+                    src="/logo.png"
+                    alt=""
+                  />
+                  <div>
+                    <span className="text-sm">July 22, 2023</span>
+                    <h2 className="text-sm font-medium">
+                      Smooth Animation with React and Framer Motion
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <img
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/scult.jpeg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            </Link>
+            <Link>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="  flex items-center gap-x-3">
+                  <img
+                    height={1000}
+                    width={1000}
+                    className="w-24 h-24 object-cover rounded-md"
+                    src="/ervan.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <span className="text-sm">July 22, 2023</span>
+                    <h2 className="text-sm font-medium">
+                      Smooth Animation with React and Framer Motion
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* without image */}
@@ -101,7 +105,7 @@ const DashCenter = () => {
               <div className="  flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
+                  <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
                 </div>
@@ -111,7 +115,7 @@ const DashCenter = () => {
               <div className="  flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
+                  <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
                 </div>
@@ -121,7 +125,7 @@ const DashCenter = () => {
               <div className="  flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
+                  <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
                 </div>
@@ -132,57 +136,63 @@ const DashCenter = () => {
           {/* With image */}
 
           <div className=" mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <img
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            <Link>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="flex items-center gap-x-3">
+                  <img
+                    height={1000}
+                    width={1000}
+                    className="w-24 h-24 object-cover rounded-md"
+                    src="/logo.png"
+                    alt=""
+                  />
+                  <div>
+                    <span className="text-sm">July 22, 2023</span>
+                    <h2 className="text-sm font-medium">
+                      Smooth Animation with React and Framer Motion
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <img
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            </Link>
+            <Link>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="flex items-center gap-x-3">
+                  <img
+                    height={1000}
+                    width={1000}
+                    className="w-24 h-24 object-cover rounded-md"
+                    src="/ervan.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <span className="text-sm">July 22, 2023</span>
+                    <h2 className="text-sm font-medium">
+                      Smooth Animation with React and Framer Motion
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
-                <img
-                  height={1000}
-                  width={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src="/pic.jpg"
-                  alt=""
-                />
-                <div>
-                  <span className="text-sm">July 22, 2023</span>
-                  <h2 className="text-sm font-RubikMedium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            </Link>
+            <Link>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="flex items-center gap-x-3">
+                  <img
+                    height={1000}
+                    width={1000}
+                    className="w-24 h-24 object-cover rounded-md"
+                    src="/logo.png"
+                    alt=""
+                  />
+                  <div>
+                    <span className="text-sm">July 22, 2023</span>
+                    <h2 className="text-sm font-medium">
+                      Smooth Animation with React and Framer Motion
+                    </h2>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* without image */}
@@ -191,7 +201,7 @@ const DashCenter = () => {
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <div>
-                  <h2 className="text-sm font-RubikMedium">
+                  <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
                   <div className="flex items-center gap-x-2 font-RubikBold">

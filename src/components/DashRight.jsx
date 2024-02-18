@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
-import { Css3, Figma, Github, Youtube } from "iconoir-react";
+import { Css3, Figma, Github } from "iconoir-react";
 import TestimonialTooltip from "./TestimonialTooltip";
 
 const DashRight = () => {
@@ -66,11 +66,11 @@ const DashRight = () => {
           </div>
         </div>
 
-        <div className="bg-[#1C1C1C] min-w-min rounded-2xl p-4 border border-neutral-800 mt-3 text-neutral-50">
+        <div className="bg-[#141414] md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 border border-neutral-800 mt-3 text-neutral-50">
           <img
             width={1000}
             height={1000}
-            className="h-32 w-56 object-cover rounded-lg"
+            className="h-56 md:h-32 w-full md:w-56 object-cover rounded-lg"
             src="/logo.png"
             alt=""
           />
