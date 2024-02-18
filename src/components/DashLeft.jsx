@@ -71,7 +71,7 @@ const DashLeft = () => {
 
               {open && (
                 <div className="border border-lime-400 h-5 flex items-center justify-center rounded-2xl w-fit px-2 absolute top-[4.7rem] left-28">
-                  <p className="text-[10px] font-medium text-lime-300">
+                  <p className="text-[10px] font-medium text-lime-400">
                     Open to freelancing
                   </p>
                 </div>
@@ -182,10 +182,10 @@ const DashLeft = () => {
                   <GoogleCircle color="white" height={24} width={24} />
                   <div className="-mt-1">
                     <h3 className="text-sm font-medium">Software Engineer</h3>
-                    <p className="text-[9px]">Google</p>
+                    <p className="text-[10px]">Google</p>
                   </div>
                 </div>
-                <small className="text-[9px] text-neutral-300">
+                <small className="text-[10px] text-neutral-300">
                   Jan 2022 - Current
                 </small>
               </div>
@@ -194,10 +194,10 @@ const DashLeft = () => {
                   <AppleMac color="white" height={24} width={24} />
                   <div className="-mt-1">
                     <h3 className="text-sm font-medium">Front-End Dev</h3>
-                    <p className="text-[9px]">Apple</p>
+                    <p className="text-[10px]">Apple</p>
                   </div>
                 </div>
-                <small className="text-[9px] text-neutral-300">
+                <small className="text-[10px] text-neutral-300">
                   Sep 2020 - Jan 2022
                 </small>
               </div>
