@@ -1,3 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#141414] transition-all font-rubik ease-in duration-200;
+  }
+}
+
+.font-rubik {
+  font-family: "rubik";
+}
+
+/* @layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+} */
+
+.btn-shine {
+  padding: 12px 0;
+  padding-right: 7px;
+  background: linear-gradient(to right, #292929 0, #7d7b7b 10%, #292929 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 10s infinite linear;
+  /* animation-delay: 10s; */
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  90% {
+    background-position: 1080px;
+  }
+  100% {
+    background-position: 1080px;
+  }
+}
