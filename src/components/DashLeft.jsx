@@ -66,12 +66,12 @@ const DashLeft = () => {
               />
               <div
                 onClick={() => setOpen(!open)}
-                className="bg-lime-400 w-3 h-3 cursor-pointer rounded-full absolute top-20 left-24 animate-pulse"
+                className="bg-green-400 w-3 h-3 cursor-pointer rounded-full absolute top-20 left-24 animate-pulse"
               />
 
               {open && (
-                <div className="border border-lime-400 h-5 flex items-center justify-center rounded-2xl w-fit px-2 absolute top-[4.7rem] left-28">
-                  <p className="text-[10px] font-medium text-lime-400">
+                <div className="border border-green-400 h-5 flex items-center justify-center rounded-2xl w-fit px-2 absolute top-[4.7rem] left-28">
+                  <p className="text-[10px] font-medium text-green-400">
                     Open to freelancing
                   </p>
                 </div>
