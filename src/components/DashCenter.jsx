@@ -41,11 +41,11 @@ const DashCenter = () => {
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <Link>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-                <div className="  flex items-center gap-x-3">
+                <div className="flex items-center gap-x-3">
                   <img
                     width={1000}
                     height={1000}
-                    className="w-40 md:w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -60,11 +60,11 @@ const DashCenter = () => {
             </Link>
             <Link>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-                <div className="  flex items-center gap-x-3">
+                <div className="flex items-center gap-x-3">
                   <img
                     height={1000}
                     width={1000}
-                    className="w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -79,11 +79,11 @@ const DashCenter = () => {
             </Link>
             <Link>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-                <div className="  flex items-center gap-x-3">
+                <div className="flex items-center gap-x-3">
                   <img
                     height={1000}
                     width={1000}
-                    className="w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -100,9 +100,9 @@ const DashCenter = () => {
 
           {/* without image */}
 
-          <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+          <div className="mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
+              <div className="flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-medium">
@@ -112,7 +112,7 @@ const DashCenter = () => {
               </div>
             </div>
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
+              <div className="flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-medium">
@@ -122,7 +122,7 @@ const DashCenter = () => {
               </div>
             </div>
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
+              <div className="flex items-center gap-x-3">
                 <div>
                   <span className="text-sm">July 22, 2023</span>
                   <h2 className="text-sm font-medium">
@@ -135,14 +135,14 @@ const DashCenter = () => {
 
           {/* With image */}
 
-          <div className=" mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+          <div className=" mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
             <Link>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
                     height={1000}
                     width={1000}
-                    className="w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -161,7 +161,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -180,7 +180,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-40 md:w-24 h-24 object-cover rounded-md"
+                    className="w-44 md:w-28 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -197,9 +197,9 @@ const DashCenter = () => {
 
           {/* without image */}
 
-          <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+          <div className="mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="  flex items-center gap-x-3">
+              <div className="flex items-center gap-x-3">
                 <div>
                   <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
