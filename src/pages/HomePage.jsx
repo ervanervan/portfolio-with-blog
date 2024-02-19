@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Home, Github } from "iconoir-react";
+import { ArrowRightCircle } from "iconoir-react";
 
 const HomePage = () => {
   return (
@@ -24,9 +24,15 @@ const HomePage = () => {
 
         <div className="flex justify-center">
           <div className="fixed bottom-8 flex gap-x-5 text-neutral-500">
-            <Link to={"/dashboard"}>
+            <Link
+              to={"/dashboard"}
+              className="flex items-center justify-center gap-x-1"
+            >
+              <span className="text-zinc-400 text-center font-normal">
+                Read me
+              </span>
               <span>
-                <Home color="gray" height={24} width={24} />
+                <ArrowRightCircle color="gray" height={20} width={20} />
               </span>
             </Link>
             {/* <span>
