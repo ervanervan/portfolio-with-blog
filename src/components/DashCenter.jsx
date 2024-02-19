@@ -39,13 +39,13 @@ const DashCenter = () => {
           <div className="border border-neutral-700 my-5" />
 
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link to={""}>
+            <Link>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="  flex items-center gap-x-3">
                   <img
                     width={1000}
                     height={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -64,7 +64,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -83,7 +83,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -142,7 +142,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -161,7 +161,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -180,7 +180,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-24 h-24 object-cover rounded-md"
+                    className="w-40 md:w-24 h-24 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
