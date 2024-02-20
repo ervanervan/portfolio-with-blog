@@ -35,9 +35,6 @@ const HomePage = () => {
                 <ArrowRightCircle color="gray" height={20} width={20} />
               </span>
             </Link>
-            {/* <span>
-                <Github color="gray" height={24} width={24} />
-              </span> */}
           </div>
         </div>
       </div>
