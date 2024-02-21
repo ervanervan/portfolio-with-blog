@@ -27,7 +27,7 @@ const DashCenter = () => {
             <div>
               <h1 className="text-2xl font-medium text-neutral-300">
                 Semicolon,
-                <span className="text-sm text-neutral-400"> A Dev Blog</span>
+                <span className="text-sm text-neutral-400"> a dev blog</span>
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
                 I design and code beautifully simple things, and occasionally i
