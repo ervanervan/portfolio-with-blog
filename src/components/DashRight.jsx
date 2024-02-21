@@ -28,7 +28,7 @@ const DashRight = () => {
               Paste <br />
               from the 80+ Shadows collection
             </p>
-            <button className="bg-[#696969] h-7 p-1 rounded-md text-xs w-full font-medium text-neutral-50 ">
+            <button className="h-7 p-1 bg-[#696969] rounded-md text-xs w-full font-medium text-neutral-50 ">
               Download
             </button>
 
