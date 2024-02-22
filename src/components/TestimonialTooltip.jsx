@@ -38,31 +38,35 @@ const TestimonialTooltip = () => {
       id: 1,
       name: "Our Feeds",
       position: "www.feed.com",
+      link: "https://www.feed.com",
       image: <RssFeed color="white" width={18} height={18} />,
     },
     {
       id: 2,
       name: "Instagram",
-      position: "www.instagram.com",
-      Link: "www.instagram.com",
+      position: "www.instagram.com/ervan_kr",
+      link: "https://www.instagram.com/ervan_kr",
       image: <Instagram color="white" width={18} height={18} />,
     },
     {
       id: 3,
       name: "Tiktok",
-      position: "https://www.tiktok.com/@ervan.11",
+      position: "www.tiktok.com/@ervan.11",
+      link: "https://www.tiktok.com/@ervan.11",
       image: <Tiktok color="white" width={18} height={18} />,
     },
     {
       id: 4,
       name: "Youtube",
       position: "www.youtube.com",
+      link: "https://www.youtube.com",
       image: <Youtube color="white" width={18} height={18} />,
     },
     {
       id: 5,
       name: "LinkedIn",
-      position: "www.Linkedin.com",
+      position: "www.Linkedin.com/ervan-kurniawan",
+      link: "https://www.linkedin.com/in/ervan-kurniawan-5b67a4263/",
       image: <Linkedin color="white" width={18} height={18} />,
     },
   ];
@@ -116,7 +120,7 @@ const TestimonialTooltip = () => {
           >
             {testimonial.image}
           </p> */}
-          <a href={testimonial.position} target="_blank">
+          <a href={testimonial.link} target="_blank">
             {testimonial.image}
           </a>
         </div>
