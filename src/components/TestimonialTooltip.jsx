@@ -7,10 +7,11 @@ import {
   useSpring,
 } from "framer-motion";
 import {
-  Box3dPoint,
   Instagram,
+  Link,
   Linkedin,
   RssFeed,
+  Tiktok,
   Youtube,
 } from "iconoir-react";
 
@@ -43,13 +44,14 @@ const TestimonialTooltip = () => {
       id: 2,
       name: "Instagram",
       position: "www.instagram.com",
+      Link: "www.instagram.com",
       image: <Instagram color="white" width={18} height={18} />,
     },
     {
       id: 3,
-      name: "Box",
-      position: "www.box.com",
-      image: <Box3dPoint color="white" width={18} height={18} />,
+      name: "Tiktok",
+      position: "https://www.tiktok.com/@ervan.11",
+      image: <Tiktok color="white" width={18} height={18} />,
     },
     {
       id: 4,
@@ -66,11 +68,7 @@ const TestimonialTooltip = () => {
   ];
 
   return (
-    <div
-      className="flex flex-row items-center gap-x-7  
-    cursor-pointer
-    "
-    >
+    <div className="flex flex-row items-center gap-x-7 cursor-pointer">
       {people.map((testimonial, idx) => (
         <div
           className="relative group"
@@ -100,8 +98,8 @@ const TestimonialTooltip = () => {
                 }}
                 className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
               >
-                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
+                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px" />
+                <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px" />
                 <div className="font-bold text-white relative z-30 text-base">
                   {testimonial.name}
                 </div>
@@ -109,7 +107,18 @@ const TestimonialTooltip = () => {
               </motion.div>
             )}
           </AnimatePresence>
-          <p>{testimonial.image}</p>
+
+          {/* <p
+            onClick={() => {
+              // Mengarahkan ke link setiap media sosial
+              window.open(testimonial.position, "_blank");
+            }}
+          >
+            {testimonial.image}
+          </p> */}
+          <a href={testimonial.position} target="_blank">
+            {testimonial.image}
+          </a>
         </div>
       ))}
     </div>
