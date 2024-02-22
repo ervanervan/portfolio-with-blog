@@ -9,6 +9,7 @@ import {
   MagicWand,
   OpenBook,
 } from "iconoir-react";
+import TestimonialTooltip from "./TestimonialTooltip";
 
 const DashLeft = () => {
   const [open, setOpen] = useState(false);
@@ -163,7 +164,7 @@ const DashLeft = () => {
               <div className="flex items-center gap-x-1.5">
                 <Calendar color="white" height={16} width={14} />
                 <span className="text-xs font-normal">
-                  4 Years as a Developer
+                  3 Years as a Developer
                 </span>
               </div>
               <div className="flex items-center gap-x-1.5">
@@ -176,7 +177,7 @@ const DashLeft = () => {
 
             <div className="my-4">
               <h1 className="font-semibold">Work History</h1>
-              <div className="mt-7 flex  justify-between">
+              <div className="mt-7 flex justify-between">
                 <div className="flex gap-x-3">
                   <Building color="white" height={24} width={24} />
                   <div className="-mt-1">
@@ -200,6 +201,15 @@ const DashLeft = () => {
                   Sep 2020 - Jan 2022
                 </small>
               </div> */}
+            </div>
+
+            <div className="border border-[#282828] text-neutral-300 my-6" />
+
+            <div className="my-4">
+              <h1 className="font-semibold">Connect with Us</h1>
+              <div className="mt-7">
+                <TestimonialTooltip />
+              </div>
             </div>
           </div>
         </div>

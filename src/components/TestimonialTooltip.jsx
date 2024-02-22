@@ -72,7 +72,7 @@ const TestimonialTooltip = () => {
   ];
 
   return (
-    <div className="flex flex-row items-center gap-x-7 cursor-pointer">
+    <div className="flex flex-row items-center justify-center gap-x-7 cursor-pointer">
       {people.map((testimonial, idx) => (
         <div
           className="relative group"
