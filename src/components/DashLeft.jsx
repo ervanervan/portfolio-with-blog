@@ -180,15 +180,15 @@ const DashLeft = () => {
                 <div className="flex gap-x-3">
                   <Building color="white" height={24} width={24} />
                   <div className="-mt-1">
-                    <h3 className="text-sm font-medium">Software Engineer</h3>
-                    <p className="text-[10px]">Google</p>
+                    <h3 className="text-sm font-medium">Web Dev Intern</h3>
+                    <p className="text-[10px]">Maritim Muda Nusantara</p>
                   </div>
                 </div>
                 <small className="text-[10px] text-neutral-300">
-                  Jan 2022 - Current
+                  Feb 2023 - Jun 2023
                 </small>
               </div>
-              <div className="my-3 flex justify-between">
+              {/* <div className="my-3 flex justify-between">
                 <div className="flex gap-x-3">
                   <Building color="white" height={24} width={24} />
                   <div className="-mt-1">
@@ -199,7 +199,7 @@ const DashLeft = () => {
                 <small className="text-[10px] text-neutral-300">
                   Sep 2020 - Jan 2022
                 </small>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
