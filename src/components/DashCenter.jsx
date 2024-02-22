@@ -1,5 +1,5 @@
 import React from "react";
-import { Code } from "iconoir-react";
+import { MediaImageList } from "iconoir-react";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 
@@ -22,16 +22,18 @@ const DashCenter = () => {
       <div className="bg-[#141414] md:bg-[#1d1d1d] lg:bg-transparent rounded-xl">
         <div>
           <div className="flex gap-x-6 p-4 items-center">
-            <Code color="white" width={100} height={100} />
+            <MediaImageList color="white" width={100} height={100} />
 
             <div>
               <h1 className="text-2xl font-medium text-neutral-300">
-                Semicolon,
-                <span className="text-sm text-neutral-400"> a dev blog</span>
+                My Portfolio and Blog
+                {/* <span className="text-sm text-neutral-400">
+                  Unveiling Creative Journeys
+                </span> */}
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
-                I design and code beautifully simple things, and occasionally i
-                write about them
+                Find inspiring visual narratives in my portfolio and brief
+                insights on my blog. One place, two sources of inspiration.
               </p>
             </div>
           </div>
