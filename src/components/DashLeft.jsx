@@ -3,9 +3,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 import {
-  AppleMac,
+  Building,
   Calendar,
-  GoogleCircle,
   HomeSimple,
   MagicWand,
   OpenBook,
@@ -175,11 +174,11 @@ const DashLeft = () => {
 
             <div className="border border-[#282828] text-neutral-300 my-6" />
 
-            <div className="my-4 ">
+            <div className="my-4">
               <h1 className="font-semibold">Work History</h1>
               <div className="mt-7 flex  justify-between">
                 <div className="flex gap-x-3">
-                  <GoogleCircle color="white" height={24} width={24} />
+                  <Building color="white" height={24} width={24} />
                   <div className="-mt-1">
                     <h3 className="text-sm font-medium">Software Engineer</h3>
                     <p className="text-[10px]">Google</p>
@@ -191,7 +190,7 @@ const DashLeft = () => {
               </div>
               <div className="my-3 flex justify-between">
                 <div className="flex gap-x-3">
-                  <AppleMac color="white" height={24} width={24} />
+                  <Building color="white" height={24} width={24} />
                   <div className="-mt-1">
                     <h3 className="text-sm font-medium">Front-End Dev</h3>
                     <p className="text-[10px]">Apple</p>
