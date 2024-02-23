@@ -53,9 +53,9 @@ const DashCenter = () => {
                   />
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
-                    <h2 className="text-base font-medium">Weserve</h2>
+                    <h2 className="text-base font-medium">Coming Soon...</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    {/* <div className="flex items-center gap-x-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TypeScript
                       </p>
@@ -63,7 +63,7 @@ const DashCenter = () => {
                         TailwindCSS
                       </p>
                     </div>
-                    <span className="text-xs">Monday, December 25, 2023</span>
+                    <span className="text-xs">Monday, December 25, 2023</span> */}
                   </div>
                 </div>
               </div>
@@ -80,9 +80,9 @@ const DashCenter = () => {
                   />
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
-                    <h2 className="text-base font-medium">Anime Movies</h2>
+                    <h2 className="text-base font-medium">Coming Soon...</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    {/* <div className="flex items-center gap-x-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TypeScript
                       </p>
@@ -90,7 +90,7 @@ const DashCenter = () => {
                         TailwindCSS
                       </p>
                     </div>
-                    <span className="text-xs">Sunday, December 17, 2023</span>
+                    <span className="text-xs">Sunday, December 17, 2023</span> */}
                   </div>
                 </div>
               </div>
@@ -102,12 +102,12 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/ervan.jpg"
+                    src="/cover-disney-plus.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
-                    <h2 className="text-base font-medium">Disney Clone</h2>
+                    <h2 className="text-base font-medium">Disney Plus</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
                     <div className="flex items-center gap-x-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
@@ -167,7 +167,7 @@ const DashCenter = () => {
                     width={1000}
                     height={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/ervan.jpg"
+                    src="/cover-weserve.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -194,7 +194,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/logo.png"
+                    src="/cover-anime-movies.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -288,7 +288,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/logo.png"
+                    src="/cover-card-api.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -315,7 +315,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/ervan.jpg"
+                    src="/cover-goout.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -342,7 +342,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/logo.png"
+                    src="/cover-payna.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
