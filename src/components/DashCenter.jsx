@@ -51,11 +51,19 @@ const DashCenter = () => {
                     src="/ervan.jpg"
                     alt=""
                   />
-                  <div>
-                    <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
-                    </h2>
+                  <div className="flex flex-col gap-2">
+                    {/* <span className="text-sm">July 22, 2023</span> */}
+                    <h2 className="text-base font-medium">Weserve</h2>
+                    {/* <p className="text-sm font-medium">Payna Finance</p> */}
+                    <div className="flex items-center gap-x-2 font-semibold">
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        TypeScript
+                      </p>
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        TailwindCSS
+                      </p>
+                    </div>
+                    <span className="text-xs">Sunday, October 22, 2023</span>
                   </div>
                 </div>
               </div>
@@ -70,11 +78,19 @@ const DashCenter = () => {
                     src="/logo.png"
                     alt=""
                   />
-                  <div>
-                    <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
-                    </h2>
+                  <div className="flex flex-col gap-2">
+                    {/* <span className="text-sm">July 22, 2023</span> */}
+                    <h2 className="text-base font-medium">Anime Movies</h2>
+                    {/* <p className="text-sm font-medium">Payna Finance</p> */}
+                    <div className="flex items-center gap-x-2 font-semibold">
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        TypeScript
+                      </p>
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        TailwindCSS
+                      </p>
+                    </div>
+                    <span className="text-xs">Sunday, December 17, 2023</span>
                   </div>
                 </div>
               </div>
@@ -89,11 +105,19 @@ const DashCenter = () => {
                     src="/ervan.jpg"
                     alt=""
                   />
-                  <div>
-                    <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
-                    </h2>
+                  <div className="flex flex-col gap-2">
+                    {/* <span className="text-sm">July 22, 2023</span> */}
+                    <h2 className="text-base font-medium">Travlog</h2>
+                    {/* <p className="text-sm font-medium">Payna Finance</p> */}
+                    <div className="flex items-center gap-x-2 font-semibold">
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        ReactJS
+                      </p>
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        TailwindCSS
+                      </p>
+                    </div>
+                    <span className="text-xs">Thursday, November 16, 2023</span>
                   </div>
                 </div>
               </div>
@@ -154,13 +178,10 @@ const DashCenter = () => {
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
                     <div className="flex items-center gap-x-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
-                        ReactJS
+                        TypeScript
                       </p>
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TailwindCSS
-                      </p>
-                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
-                        Git
                       </p>
                     </div>
                     <span className="text-xs">Sunday, October 22, 2023</span>
@@ -189,9 +210,6 @@ const DashCenter = () => {
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TailwindCSS
                       </p>
-                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
-                        Git
-                      </p>
                     </div>
                     <span className="text-xs">Wednesday, October 18, 2023</span>
                   </div>
@@ -218,9 +236,6 @@ const DashCenter = () => {
                       </p>
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TailwindCSS
-                      </p>
-                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
-                        Git
                       </p>
                     </div>
                     <span className="text-xs">Wednesday, October 11, 2023</span>
