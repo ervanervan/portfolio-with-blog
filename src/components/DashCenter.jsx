@@ -187,10 +187,10 @@ const DashCenter = () => {
                     alt=""
                   />
                   <div>
-                    <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
-                    </h2>
+                    {/* <span className="text-sm">July 22, 2023</span> */}
+                    <h2 className="text-base font-medium">Payna Finance</h2>
+                    {/* <p className="text-sm font-medium">Payna Finance</p> */}
+                    <span className="text-xs">Wednesday, October 11, 2023</span>
                   </div>
                 </div>
               </div>
@@ -203,15 +203,16 @@ const DashCenter = () => {
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="flex items-center gap-x-3">
                 <div>
-                  <h2 className="text-sm font-medium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
-                  <div className="flex items-center gap-x-2 font-RubikBold">
+                  <h2 className="text-sm font-medium">Payna Finance</h2>
+                  <div className="flex items-center gap-x-2 font-semibold mt-2">
                     <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
-                      TypeScript
+                      ReactJS
+                    </p>
+                    <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                      TailwindCSS
                     </p>
                     <div className="w-1 h-1 rounded-full bg-neutral-400" />
-                    <span className="text-xs">Sunday, July 22, 2023</span>
+                    <span className="text-xs">Wednesday, October 11, 2023</span>
                   </div>
                 </div>
               </div>
