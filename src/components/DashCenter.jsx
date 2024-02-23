@@ -22,7 +22,7 @@ const DashCenter = () => {
       <div className="bg-[#141414] md:bg-[#1d1d1d] lg:bg-transparent rounded-xl">
         <div>
           <div className="flex gap-x-6 p-4 items-center">
-            <MediaImageList color="white" width={100} height={100} />
+            <MediaImageList color="white" width={75} height={75} />
 
             <div>
               <h1 className="text-2xl font-medium text-neutral-300">
@@ -47,7 +47,7 @@ const DashCenter = () => {
                   <img
                     width={1000}
                     height={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -66,7 +66,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -85,7 +85,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
@@ -144,7 +144,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
@@ -163,15 +163,15 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/ervan.jpg"
                     alt=""
                   />
                   <div>
-                    <span className="text-sm">July 22, 2023</span>
-                    <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
-                    </h2>
+                    {/* <span className="text-sm">July 22, 2023</span> */}
+                    <h2 className="text-base font-medium">Goout Travel</h2>
+                    {/* <p className="text-sm font-medium">Payna Finance</p> */}
+                    <span className="text-xs">Wednesday, October 18, 2023</span>
                   </div>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const DashCenter = () => {
                   <img
                     height={1000}
                     width={1000}
-                    className="w-44 md:w-28 h-24 object-cover rounded-md"
+                    className="size-20 object-cover rounded-md"
                     src="/logo.png"
                     alt=""
                   />
