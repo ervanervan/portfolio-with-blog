@@ -221,7 +221,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/ervan.jpg"
+                    src="/cover-travlog.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
