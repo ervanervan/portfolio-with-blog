@@ -133,7 +133,7 @@ const DashLeft = () => {
             </div>
           </div>
 
-          <form
+          {/* <form
             onSubmit={handleSubmit}
             className="bg-[#282828] p-1  rounded-md md:flex items-center  justify-between h-9 w-full hidden "
           >
@@ -150,7 +150,7 @@ const DashLeft = () => {
             >
               Subscribe
             </motion.button>
-          </form>
+          </form> */}
 
           <div className="w-full mt-5 text-neutral-300">
             <h2 className="font-semibold my-4">Bio</h2>
