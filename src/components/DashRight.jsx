@@ -1,6 +1,6 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
 import { Css3, Figma, Github } from "iconoir-react";
+import { motion, useAnimation } from "framer-motion";
 import TestimonialTooltip from "./TestimonialTooltip";
 
 const DashRight = () => {
