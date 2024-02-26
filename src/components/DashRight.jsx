@@ -79,7 +79,7 @@ const DashRight = () => {
             Get Now @20% OFF
           </button>
         </div>
-        <div className="mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
+        <div className="bg-[#1C1C1C] rounded-lg text-neutral-400">
           <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
             <div className="flex items-center gap-x-3">
               <div className="flex flex-col gap-y-3">
