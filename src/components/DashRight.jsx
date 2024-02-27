@@ -85,7 +85,7 @@ const DashRight = () => {
               <div className="flex flex-col gap-y-3">
                 <div className="flex gap-x-3 items-center">
                   <span className="text-xs">
-                    ©2024 Ervan Kurniawan. All Right Reserved
+                    ©2024 Ervan Kurniawan. All Right
                   </span>
                 </div>
               </div>
