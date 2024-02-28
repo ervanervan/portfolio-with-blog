@@ -47,7 +47,7 @@ const DashRight = () => {
                   <Figma color="white" width={24} height={24} />
                 </div>
                 <h3 className="text-xs ">
-                  How to easily creat React animations: Figma
+                  How to easily create React animations: Figma
                 </h3>
               </div>
               <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800 p-2 rounded-md">
