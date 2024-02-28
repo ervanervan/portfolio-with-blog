@@ -24,9 +24,8 @@ const DashRight = () => {
           <div className="bg-[#141414] md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 md:border border-neutral-800 h-fit">
             <h2 className="font-bold text-neutral-200">90+ Framer Shadows</h2>
             <p className="text-xs my-3 text-neutral-400 font-normal">
-              Stop worrying about perfecting <br /> the shadows, just Copy &
-              Paste <br />
-              from the 80+ Shadows collection
+              Stop worrying about perfecting the shadows, just Copy & Paste from
+              the 80+ Shadows collection
             </p>
             <button className="h-7 p-1 bg-[#696969] rounded-md text-xs w-full font-medium text-neutral-50 ">
               Download
