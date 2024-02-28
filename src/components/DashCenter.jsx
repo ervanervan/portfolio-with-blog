@@ -41,7 +41,7 @@ const DashCenter = () => {
           <div className="border border-neutral-700 my-5" />
 
           <div className="bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link>
+            <Link to={"https://disneyplus-ruby.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -76,7 +76,7 @@ const DashCenter = () => {
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="flex items-center gap-x-3">
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">November 27, 2023</span>
                   <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
@@ -86,7 +86,7 @@ const DashCenter = () => {
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="flex items-center gap-x-3">
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">November 27, 2023</span>
                   <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
@@ -96,7 +96,7 @@ const DashCenter = () => {
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="flex items-center gap-x-3">
                 <div>
-                  <span className="text-sm">July 22, 2023</span>
+                  <span className="text-sm">November 27, 2023</span>
                   <h2 className="text-sm font-medium">
                     Smooth Animation with React and Framer Motion
                   </h2>
@@ -106,7 +106,7 @@ const DashCenter = () => {
           </div>
 
           <div className="mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link>
+            <Link to={"https://weserve-app.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -133,7 +133,7 @@ const DashCenter = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={"https://anime-movies-mu.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -160,7 +160,7 @@ const DashCenter = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={"https://travlog-omega.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -227,7 +227,7 @@ const DashCenter = () => {
           {/* With image */}
 
           <div className=" mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <Link>
+            <Link to={"https://product-card-api.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -254,7 +254,7 @@ const DashCenter = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={"https://goout-travel-alpha.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
@@ -281,7 +281,7 @@ const DashCenter = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={"https://payna-finance-five.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <img
