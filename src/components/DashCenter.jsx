@@ -55,7 +55,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Disney Plus</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         ReactJS
                       </p>
@@ -120,7 +120,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Weserve</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TypeScript
                       </p>
@@ -147,12 +147,15 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Anime Movies</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TypeScript
                       </p>
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TailwindCSS
+                      </p>
+                      <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
+                        Framer Motion
                       </p>
                     </div>
                     <span className="text-xs">Sunday, December 17, 2023</span>
@@ -174,7 +177,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Travlog</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         ReactJS
                       </p>
@@ -241,7 +244,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Product Card API</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         TypeScript
                       </p>
@@ -268,7 +271,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Goout Travel</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         ReactJS
                       </p>
@@ -295,7 +298,7 @@ const DashCenter = () => {
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Payna Finance</h2>
                     {/* <p className="text-sm font-medium">Payna Finance</p> */}
-                    <div className="flex items-center gap-x-2 font-semibold">
+                    <div className="flex items-center flex-wrap gap-2 font-semibold">
                       <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                         ReactJS
                       </p>
@@ -317,7 +320,7 @@ const DashCenter = () => {
               <div className="flex items-center gap-x-3">
                 <div className="flex flex-col gap-y-3">
                   <h2 className="text-sm font-medium">Portfolio with blog</h2>
-                  <div className="flex items-center gap-x-2 font-semibold">
+                  <div className="flex items-center flex-wrap gap-2 font-semibold">
                     <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                       ReactJS
                     </p>
