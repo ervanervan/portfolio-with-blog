@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="flex flex-col items-center justify-center mx-auto px-8 md:px-0 lg:max-w-2xl">
         <div className="border-2 rounded-full">
           <img
-            src="/ervan.jpg"
+            src="/ervan-min.jpg"
             alt=""
             className="object-cover w-36 h-36 rounded-full"
           />
