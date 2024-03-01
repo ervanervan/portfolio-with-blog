@@ -48,7 +48,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-disney-plus-min.png"
+                    src="/cover-disney-plus-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -113,7 +113,7 @@ const DashCenter = () => {
                     width={1000}
                     height={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-weserve-min.png"
+                    src="/cover-weserve-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -140,7 +140,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-anime-movies-min.png"
+                    src="/cover-anime-movies-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -170,7 +170,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-travlog-min.png"
+                    src="/cover-travlog-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -237,7 +237,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-card-api-min.png"
+                    src="/cover-card-api-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -264,7 +264,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-goout-min.png"
+                    src="/cover-goout-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">
@@ -291,7 +291,7 @@ const DashCenter = () => {
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
-                    src="/cover-payna-min.png"
+                    src="/cover-payna-min1.png"
                     alt=""
                   />
                   <div className="flex flex-col gap-2">

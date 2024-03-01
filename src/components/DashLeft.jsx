@@ -61,7 +61,7 @@ const DashLeft = () => {
                 width={1000}
                 height={1000}
                 className="w-28 h-28 object-cover rounded-full"
-                src="/ervan-min.jpg"
+                src="/ervan-min1.jpg"
                 alt=""
               />
               <div
