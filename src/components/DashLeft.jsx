@@ -176,7 +176,7 @@ const DashLeft = () => {
             <div className="border border-[#282828] text-neutral-300 my-6" />
 
             <div className="my-4">
-              <h1 className="font-semibold">Work History</h1>
+              <h2 className="font-semibold">Work History</h2>
               <div className="mt-7 flex justify-between">
                 <div className="flex gap-x-3">
                   <Building color="white" height={24} width={24} />
