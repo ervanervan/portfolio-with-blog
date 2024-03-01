@@ -44,7 +44,7 @@ const DashLeft = () => {
   };
 
   return (
-    <div>
+    <section>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{
@@ -214,7 +214,7 @@ const DashLeft = () => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 
