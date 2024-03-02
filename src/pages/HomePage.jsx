@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "iconoir-react";
 
 const HomePage = () => {
   return (
-    <header className="h-screen flex items-center justify-center">
+    <header className="h-[100dvh] flex items-center justify-center">
       <div className="flex flex-col items-center justify-center mx-auto px-8 md:px-0 lg:max-w-2xl">
         <div className="border-2 rounded-full">
           <img
