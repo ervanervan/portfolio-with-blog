@@ -10,7 +10,7 @@ const HomePage = () => {
           <img
             src="/ervan-min.jpg"
             alt=""
-            className="object-cover w-36 h-36 rounded-full"
+            className="object-cover size-36 rounded-full"
           />
         </div>
         <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-center my-9 btn-shine">
