@@ -19,7 +19,7 @@ const DashRight = () => {
       }}
       className="w-full"
     >
-      <div className="w-full md:w-60 md:rounded-xl h-fit sticky top-5 mb-5 md:mb-0">
+      <div className="w-full md:w-60 md:rounded-xl h-fit sticky top-5 mb-3 md:mb-0">
         <div>
           <div className="bg-[#141414] md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 md:border border-neutral-800 h-fit">
             <h2 className="font-bold text-neutral-200">90+ Framer Shadows</h2>
@@ -36,24 +36,24 @@ const DashRight = () => {
             <div className="text-neutral-400">
               <h1 className="font-medium text-neutral-200">Featured in</h1>
               <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
-                <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
+                <div className="flex items-center justify-center shrink-0 bg-neutral-700/50 size-10 rounded-full">
                   <Github color="white" width={20} height={20} />
                 </div>
-                <h3 className="text-xs">9 Essential Javascript Functions</h3>
+                <h2 className="text-xs">9 Essential Javascript Functions</h2>
               </div>
               <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
-                <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
+                <div className="flex items-center justify-center shrink-0 bg-neutral-700/50 size-10 rounded-full">
                   <Figma color="white" width={20} height={20} />
                 </div>
-                <h3 className="text-xs">
+                <h2 className="text-xs">
                   How to easily create React animations: Figma
-                </h3>
+                </h2>
               </div>
               <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
-                <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
+                <div className="flex items-center justify-center shrink-0 bg-neutral-700/50 size-10 rounded-full">
                   <Css3 color="white" width={20} height={20} />
                 </div>
-                <h3 className="text-xs">TailwindCSS tips</h3>
+                <h2 className="text-xs">TailwindCSS tips</h2>
               </div>
 
               {/* <div className="border border-neutral-700 my-5" />
@@ -78,15 +78,9 @@ const DashRight = () => {
             Get Now @20% OFF
           </button>
         </div>
-        <footer className="mt-3 bg-[#1C1C1C] rounded-lg text-neutral-400">
+        <footer className="mt-3 md:bg-[#1C1C1C] rounded-lg text-neutral-400">
           <div className="p-4">
-            <div className="flex items-center gap-x-3">
-              <div className="flex flex-col gap-y-3">
-                <div className="flex gap-x-3 items-center">
-                  <span className="text-xs">©2024 Ervan Kurniawan.</span>
-                </div>
-              </div>
-            </div>
+            <p className="text-xs">©2024 Ervan Kurniawan.</p>
           </div>
         </footer>
       </div>
