@@ -35,25 +35,25 @@ const DashRight = () => {
 
             <div className="text-neutral-400">
               <h1 className="font-medium text-neutral-200">Featured in</h1>
-              <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800 p-2 rounded-md">
+              <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
                 <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
-                  <Github color="white" width={24} height={24} />
+                  <Github color="white" width={20} height={20} />
                 </div>
                 <h3 className="text-xs">9 Essential Javascript Functions</h3>
               </div>
-              <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800 p-2 rounded-md">
+              <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
                 <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
-                  <Figma color="white" width={24} height={24} />
+                  <Figma color="white" width={20} height={20} />
                 </div>
-                <h3 className="text-xs ">
+                <h3 className="text-xs">
                   How to easily create React animations: Figma
                 </h3>
               </div>
-              <div className="flex items-center gap-x-3 mt-6 hover:bg-neutral-800 p-2 rounded-md">
+              <div className="flex items-center gap-x-3 mt-4 hover:bg-neutral-800 p-2 rounded-md">
                 <div className="bg-neutral-700/50 h-8 w-8 rounded-full flex items-center justify-center">
-                  <Css3 color="white" width={24} height={24} />
+                  <Css3 color="white" width={20} height={20} />
                 </div>
-                <h3 className="text-xs ">TailwindCSS tips</h3>
+                <h3 className="text-xs">TailwindCSS tips</h3>
               </div>
 
               {/* <div className="border border-neutral-700 my-5" />
