@@ -316,10 +316,10 @@ const DashCenter = () => {
           {/* without image */}
 
           <div className="mt-6 bg-[#1C1C1C] rounded-lg text-neutral-400">
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+            <div className="p-4">
               <div className="flex items-center gap-x-3">
                 <div className="flex flex-col gap-y-3">
-                  <h2 className="text-sm font-medium">Portfolio with blog</h2>
+                  <h2 className="text-base font-medium">Portfolio with blog</h2>
                   <div className="flex items-center flex-wrap gap-2 font-semibold">
                     <p className="bg-[#282828] w-fit text-neutral-300 rounded-md px-2 h-5 flex items-center justify-center text-[11px] ">
                       ReactJS
