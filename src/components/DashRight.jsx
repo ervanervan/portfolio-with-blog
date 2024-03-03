@@ -56,11 +56,11 @@ const DashRight = () => {
                 <h3 className="text-xs ">TailwindCSS tips</h3>
               </div>
 
-              <div className="border border-neutral-700 my-5" />
+              {/* <div className="border border-neutral-700 my-5" />
 
               <div className="flex items-center justify-center gap-x-2">
                 <TestimonialTooltip />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
