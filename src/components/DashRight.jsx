@@ -65,7 +65,7 @@ const DashRight = () => {
           </div>
         </div>
 
-        <div className="bg-[#141414] md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 border border-neutral-800 mt-3 text-neutral-50">
+        <div className="bg-[#141414] hidden md:block md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 border border-neutral-800 mt-3 text-neutral-50">
           <img
             width={1000}
             height={1000}
