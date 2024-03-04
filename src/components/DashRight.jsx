@@ -20,7 +20,7 @@ const DashRight = () => {
       className="w-full"
     >
       <div className="w-full md:w-60 md:rounded-xl h-fit sticky top-5 mb-3 md:mb-0">
-        <div>
+        <div className="hidden md:block">
           <div className="bg-[#141414] md:bg-[#1d1d1d] min-w-min rounded-2xl p-4 md:border border-neutral-800 h-fit">
             <h2 className="font-bold text-neutral-200">90+ Framer Shadows</h2>
             <p className="text-xs my-3 text-neutral-400 font-normal">
