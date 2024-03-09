@@ -44,13 +44,13 @@ const DashCenter = () => {
             <Link to={"https://disneyplus-ruby.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-disney-plus-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Disney Plus</h2>
@@ -109,13 +109,13 @@ const DashCenter = () => {
             <Link to={"https://weserve-app.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     width={1000}
                     height={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-weserve-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Weserve</h2>
@@ -136,13 +136,13 @@ const DashCenter = () => {
             <Link to={"https://anime-movies-mu.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-anime-movies-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Anime Movies</h2>
@@ -166,13 +166,13 @@ const DashCenter = () => {
             <Link to={"https://travlog-omega.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-travlog-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Travlog</h2>
@@ -233,13 +233,13 @@ const DashCenter = () => {
             <Link to={"https://product-card-api.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-card-api-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Product Card API</h2>
@@ -260,13 +260,13 @@ const DashCenter = () => {
             <Link to={"https://goout-travel-alpha.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-goout-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Goout Travel</h2>
@@ -287,13 +287,13 @@ const DashCenter = () => {
             <Link to={"https://payna-finance-five.vercel.app/"} target="_blank">
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <img
+                  {/* <img
                     height={1000}
                     width={1000}
                     className="size-20 object-cover rounded-md"
                     src="/cover-payna-min1.png"
                     alt=""
-                  />
+                  /> */}
                   <div className="flex flex-col gap-2">
                     {/* <span className="text-sm">July 22, 2023</span> */}
                     <h2 className="text-base font-medium">Payna Finance</h2>
