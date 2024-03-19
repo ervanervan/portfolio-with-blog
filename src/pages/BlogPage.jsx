@@ -56,7 +56,7 @@ const BlogPage = () => {
             </p>
             <p className="font-bold">Windows:</p>
             <ol className="flex flex-col gap-y-2">
-              <li>1. Download Git:</li>
+              <li className="font-semibold">1. Download Git:</li>
               <p>
                 Start by visiting the official Git website at{" "}
                 <a
@@ -66,13 +66,13 @@ const BlogPage = () => {
                   https://git-scm.com/downloads.
                 </a>
               </p>
-              <li>2. Choose the Right Version:</li>
+              <li className="font-semibold">2. Choose the Right Version:</li>
               <p>
                 There, you'll find options to download Git. Make sure to select
                 the version that matches your operating system, whether it's
                 32-bit or 64-bit, then click the "Download" button.
               </p>
-              <li>3. Run the Installer:</li>
+              <li className="font-semibold">3. Run the Installer:</li>
               <p>
                 After the download process is complete, open the downloaded Git
                 installer file. Follow the simple steps in the installation
@@ -82,7 +82,7 @@ const BlogPage = () => {
             <div className="border border-neutral-700 my-3" />
             <p className="font-bold">macOS:</p>
             <ol className="flex flex-col gap-y-2">
-              <li>1. Use Homebrew:</li>
+              <li className="font-semibold">1. Use Homebrew:</li>
               <p>
                 If you're using macOS, you can easily install Git through the
                 Terminal. Open the Terminal and run the following command:
@@ -95,7 +95,7 @@ const BlogPage = () => {
                 </code>
                 {copiedStep === 1 && <span className="copied">Copied!</span>}
               </p>
-              <li>2. Use the Git Installer</li>
+              <li className="font-semibold">2. Use the Git Installer</li>
               <p>
                 If you prefer using an installer, you can get it from{" "}
                 <a
@@ -111,7 +111,7 @@ const BlogPage = () => {
             <div className="border border-neutral-700 my-3" />
             <p className="font-bold">Linux (Ubuntu/Debian):</p>
             <ol className="flex flex-col gap-y-2">
-              <li>1. Through the Terminal:</li>
+              <li className="font-semibold">1. Through the Terminal:</li>
               <p>
                 If you're using a Linux distribution like Ubuntu or Debian, you
                 can install Git directly through the terminal. Open the terminal
@@ -132,7 +132,7 @@ const BlogPage = () => {
                 </code>
                 {copiedStep === 3 && <span className="copied">Copied!</span>}
               </p>
-              <li>2. Verify the Installation:</li>
+              <li className="font-semibold">2. Verify the Installation:</li>
               <p>
                 After the installation is complete, you can verify that Git has
                 been installed by running the command:
