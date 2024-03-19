@@ -14,6 +14,10 @@
   font-family: "rubik";
 }
 
+.copied {
+  @apply text-neutral-500 font-medium text-sm ml-3;
+}
+
 /* @layer utilities {
   .animation-delay-2000 {
     animation-delay: 2s;
