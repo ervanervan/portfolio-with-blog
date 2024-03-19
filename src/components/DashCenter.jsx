@@ -215,13 +215,17 @@ const DashCenter = () => {
                 </div>
               </div>
             </div> */}
-            <Link to={""}>
+            <Link to={"/blog/:tutorial-git-push-project"}>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
-                  <div>
-                    <span className="text-sm">October 23, 2023</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm">March 19, 2024</span>
+                      <span className="text-[10px]">09:08 AM</span>
+                    </div>
                     <h2 className="text-sm font-medium">
-                      Smooth Animation with React and Framer Motion
+                      Easy Steps to Push Your Project to GitHub with Git: Guide
+                      for Developers
                     </h2>
                   </div>
                 </div>
