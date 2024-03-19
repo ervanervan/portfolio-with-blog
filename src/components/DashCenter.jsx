@@ -215,7 +215,11 @@ const DashCenter = () => {
                 </div>
               </div>
             </div> */}
-            <Link to={"/blog/:tutorial-git-push-project"}>
+            <Link
+              to={
+                "/blog/easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
+              }
+            >
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="flex items-center gap-x-3">
                   <div className="flex flex-col gap-3">
