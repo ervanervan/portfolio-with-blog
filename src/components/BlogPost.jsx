@@ -2,8 +2,7 @@ import React from "react";
 import { ArrowLeftCircle } from "iconoir-react";
 import { Link } from "react-router-dom";
 
-const BlogPost = ({ title, description, content, imageUrl }) => {
-  const paragraphs = content.split("\n");
+const BlogPost = ({ title, description, content, imageUrl, date, time }) => {
   return (
     <>
       <div className="max-w-xl mx-auto bg-[#1C1C1C] rounded-t-lg text-neutral-400">
@@ -19,8 +18,8 @@ const BlogPost = ({ title, description, content, imageUrl }) => {
           <h1 className="text-2xl font-bold mb-4">{title}</h1>
           <p className="text-neutral-400 mb-4">{description}</p>
           <div className="flex justify-between items-center text-sm font-medium">
-            <span>March 19, 2024</span>
-            <span>09:08 AM</span>
+            <span>{date}</span>
+            <span>{time}</span>
           </div>
         </div>
       </div>

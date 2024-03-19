@@ -22,16 +22,8 @@ const BlogPage = () => {
       <BlogPost
         title="Easy Steps to Push Your Project to GitHub with Git: Guide for Developers"
         description="Let's learn the simple way to push your project to GitHub! In this blog, we'll discuss the steps in a relaxed and understandable style. No need to worry about technicalities anymore because we'll be there to guide you from start to finish. Ready to embark on your journey towards smoother and more productive collaboration?"
-        content={`
-        
-
-        Choose Version:
-        Select the Git version that matches your operating system (32-bit or 64-bit) and click "Download".
-
-        Run the Installer:
-        After the download is complete, open the downloaded Git installer file and follow the installation instructions.
-
-        `}
+        date={"March 19, 2024"}
+        time={"09:08 AM"}
       />
       <div className="max-w-xl mx-auto bg-[#1C1C1C] text-neutral-400">
         <div className="px-6 pb-6">
