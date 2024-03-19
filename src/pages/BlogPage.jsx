@@ -146,6 +146,8 @@ const BlogPage = () => {
                 {copiedStep === 4 && <span className="copied">Copied!</span>}
               </p>
             </ol>
+
+            {/* Tutorial: Setting Up Git for Easy Use */}
             <div className="border border-neutral-700 my-3" />
             <h2 className="text-xl font-bold mb-4">
               Tutorial: Setting Up Git for Easy Use
@@ -251,6 +253,346 @@ const BlogPage = () => {
                 configured.
               </p>
             </ol>
+
+            {/* Tutorial: Getting Started with Git - Your Easy Guide */}
+            <div className="border border-neutral-700 my-3" />
+            <h2 className="text-xl font-bold mb-4">
+              Tutorial: Getting Started with Git - Your Easy Guide
+            </h2>
+            <p>
+              Hey there! So, you want to start using Git to manage your
+              projects? Here are the simple steps to get started:
+            </p>
+
+            <ol className="flex flex-col gap-y-2">
+              <li className="font-semibold">
+                Step 1: Creating a Git Repository
+              </li>
+              <p>
+                First things first, let's create a Git repository. This is like
+                a storage space for your project in Git. Use this command in
+                your terminal or command prompt:
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git init`, 10)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git init
+                </code>
+                {copiedStep === 10 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This will initialize a local Git repository in your project
+                directory. Easy, right?
+              </p>
+
+              <br />
+              <li className="font-semibold">
+                Step 2: Adding Changes to the Repository
+              </li>
+              <p>
+                Once you have a repository, you can start adding changes to it.
+                For example, if you create or edit a file, you need to let Git
+                know about the changes. Here's how to do it:
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git add file_name`, 11)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git add file_name
+                </code>
+                {copiedStep === 11 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Replace file_name with the name of the file you want to add.
+                It's like telling Git, "Hey, this is the file I want to include
+                in the project!"
+              </p>
+
+              <p>
+                If you want to add all changes in the directory, you can use:
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git add .`, 12)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git add .
+                </code>
+                {copiedStep === 12 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This will add all changes in the current directory to the
+                staging area.
+              </p>
+
+              <br />
+              <li className="font-semibold">Step 3: Making a Commit</li>
+              <p>
+                After adding changes, it's time to make a "commit." This is like
+                creating a reference point for the changes you've made. Add a
+                message explaining your changes with this command:
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(
+                      `git commit -m "your commit message here"`,
+                      13
+                    )
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git commit -m "your commit message here"
+                </code>
+                {copiedStep === 13 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Make sure to replace <i>"your commit message here"</i> with a
+                message that describes your changes.
+              </p>
+
+              <br />
+              <li className="font-semibold">
+                Step 4: Saving Changes to GitHub
+              </li>
+              <p>
+                Now, after committing your changes, you might want to save your
+                project on GitHub to share with others or for backup. Here's
+                how:
+              </p>
+              <ol>
+                <li>1. Create an empty repository on GitHub.</li>
+
+                <li>
+                  2. Add the repository's URL as a remote in your local Git
+                  repository with this command:
+                  <br />
+                  <code
+                    onClick={() =>
+                      handleCopyClick(
+                        `git remote add origin GitHub_Repository_URL`,
+                        14
+                      )
+                    }
+                    className="bg-neutral-700 cursor-pointer"
+                  >
+                    git remote add origin GitHub_Repository_URL
+                  </code>
+                  {copiedStep === 14 && <span className="copied">Copied!</span>}
+                </li>
+                <p>
+                  Replace <i>GitHub_Repository_URL</i> with your GitHub
+                  repository's URL.
+                </p>
+
+                <li>
+                  3. Finally, push your changes to GitHub with this command:
+                  <br />
+                  <code
+                    onClick={() =>
+                      handleCopyClick(`git push -u origin master`, 15)
+                    }
+                    className="bg-neutral-700 cursor-pointer"
+                  >
+                    git push -u origin master
+                  </code>
+                  {copiedStep === 15 && <span className="copied">Copied!</span>}
+                </li>
+                <p>
+                  This will push the changes from your local master branch to
+                  the master branch in your GitHub repository.
+                </p>
+              </ol>
+            </ol>
+
+            {/* BONUS */}
+            <div className="border border-neutral-700 my-3" />
+            <h3 className="font-bold">Bonus:</h3>
+            <ol className="flex flex-col gap-y-2">
+              <li className="font-semibold">1. git status</li>
+              <p>
+                This command is used to display the status of files in your
+                repository. It tells you which files have been modified, added,
+                or deleted since the last commit.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git status`, 16)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git status
+                </code>
+                {copiedStep === 16 && <span className="copied">Copied!</span>}
+              </p>
+
+              <li className="font-semibold">2. git pull</li>
+              <p>
+                This command is used to fetch changes from the remote repository
+                to your local repository.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git pull`, 17)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git pull
+                </code>
+                {copiedStep === 17 && <span className="copied">Copied!</span>}
+              </p>
+
+              <li className="font-semibold">3. git branch</li>
+              <p>
+                This command is used to view the list of branches in your
+                repository.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git branch`, 18)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git branch
+                </code>
+                {copiedStep === 18 && <span className="copied">Copied!</span>}
+              </p>
+
+              <li className="font-semibold">4. git checkout</li>
+              <p>
+                This command is used to switch between branches in your
+                repository.
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(`git checkout branch_name`, 19)
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git checkout branch_name
+                </code>
+                {copiedStep === 19 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Replace <i>branch_name</i> with the name of the branch you want
+                to switch to.
+              </p>
+
+              <li className="font-semibold">5. git merge</li>
+              <p>
+                This command is used to merge changes from one branch into
+                another branch.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git merge branch_name`, 19)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git merge branch_name
+                </code>
+                {copiedStep === 19 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Replace <i>branch_name</i> with the name of the branch you want
+                to merge.
+              </p>
+
+              <li className="font-semibold">6. git clone</li>
+              <p>
+                This command is used to clone an existing Git repository into a
+                new directory. It copies the entire repository, including all
+                files, branches, and commit history.
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(`git clone repository_url`, 20)
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git clone repository_url
+                </code>
+                {copiedStep === 20 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Replace <i>repository_url</i> with the URL of the repository you
+                want to clone. For example:
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(
+                      `git clone https://github.com/username/repository.git`,
+                      21
+                    )
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git clone https://github.com/username/repository.git
+                </code>
+                {copiedStep === 21 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This will create a new directory with the same name as the
+                repository and copy all the files into it.
+              </p>
+
+              <li className="font-semibold">7. git log</li>
+              <p>
+                This command is used to view the commit history of a repository.
+                It displays a list of commits, including the commit hash,
+                author, date, and commit message.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git log`, 21)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git log
+                </code>
+                {copiedStep === 21 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This will display the commit history in chronological order,
+                starting with the most recent commit.
+              </p>
+
+              <li className="font-semibold">8. git remote</li>
+              <p>
+                This command is used to manage remote repositories. It allows
+                you to view, add, rename, and remove remote repositories.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git remote -v`, 22)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git remote -v
+                </code>
+                {copiedStep === 22 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This will display a list of remote repositories associated with
+                your local repository, along with their URLs.
+              </p>
+
+              <li className="font-semibold">9. git rm</li>
+              <p>
+                This command is used to remove files from the staging area and
+                the working directory. It also stages the removal for commit.
+                <br />
+                <code
+                  onClick={() => handleCopyClick(`git rm file_name`, 23)}
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git rm file_name
+                </code>
+                {copiedStep === 23 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Replace <i>file_name</i> with the name of the file you want to
+                remove. This will stage the removal of the file for the next
+                commit.
+              </p>
+            </ol>
+
+            <div className="border border-neutral-700 my-3" />
+            <p>
+              That's it for now! These are some more essential Git commands that
+              will help you navigate through your Git workflow more effectively.
+            </p>
+            <p>
+              These are some basic Git commands that will help you get started
+              with Git. Happy coding!
+            </p>
           </div>
         </div>
       </div>
