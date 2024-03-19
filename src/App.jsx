@@ -11,7 +11,7 @@ function App() {
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/dashboard" element={<DashboardPage />}></Route>
       <Route
-        path="/blog/:tutorial-git-push-project"
+        path="/blog/:easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
         element={<BlogPage />}
       ></Route>
     </Routes>
