@@ -189,9 +189,8 @@ const BlogPage = () => {
                 </code>
                 {copiedStep === 6 && <span className="copied">Copied!</span>}
               </p>
-            </ol>
 
-            <ol className="flex flex-col gap-y-2">
+              <br />
               <li className="font-semibold">Step 2: Set Your Email Address</li>
               <p>
                 Next up, let's get your email address sorted. This is crucial
@@ -229,6 +228,27 @@ const BlogPage = () => {
                   git config --global user.name "ervan@gmail.com"
                 </code>
                 {copiedStep === 8 && <span className="copied">Copied!</span>}
+              </p>
+
+              <br />
+              <li className="font-semibold">Step 3: Check Your Settings</li>
+              <p>
+                Lastly, let's make sure everything's set up correctly. You can
+                check it with this command:
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(`git config --global --list`, 9)
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git config --global --list
+                </code>
+                {copiedStep === 9 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                This command will show you a list of the global settings you've
+                configured.
               </p>
             </ol>
           </div>
