@@ -15,8 +15,13 @@ const BlogPost = ({ title, description, content, imageUrl }) => {
             <ArrowLeftCircle width={20} height={20} />
             <span className="text-sm">back to dashboard</span>
           </Link>
+
           <h1 className="text-2xl font-bold mb-4">{title}</h1>
           <p className="text-neutral-400 mb-4">{description}</p>
+          <div className="flex justify-between items-center text-sm font-medium">
+            <span>March 19, 2024</span>
+            <span>09:08 AM</span>
+          </div>
         </div>
       </div>
     </>

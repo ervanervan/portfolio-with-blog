@@ -18,7 +18,7 @@ const BlogPage = () => {
       });
   };
   return (
-    <div className="container mx-auto md:mt-8">
+    <div className="container mx-auto md:my-8">
       <BlogPost
         title="Easy Steps to Push Your Project to GitHub with Git: Guide for Developers"
         description="Let's learn the simple way to push your project to GitHub! In this blog, we'll discuss the steps in a relaxed and understandable style. No need to worry about technicalities anymore because we'll be there to guide you from start to finish. Ready to embark on your journey towards smoother and more productive collaboration?"
@@ -33,7 +33,7 @@ const BlogPage = () => {
 
         `}
       />
-      <div className="max-w-xl mx-auto bg-[#1C1C1C] rounded-b-lg text-neutral-400 md:mb-6">
+      <div className="max-w-xl mx-auto bg-[#1C1C1C] text-neutral-400">
         <div className="px-6 pb-6">
           <div className="border border-neutral-700 mb-10" />
           <div className="flex flex-col gap-y-3">
@@ -163,8 +163,9 @@ const BlogPage = () => {
               preferences. First things first, let's configure your Git with
               your name and email address. Here's how you do it:
             </p>
+
             <ol className="flex flex-col gap-y-2">
-              <li>Step 1: Set Your Name</li>
+              <li className="font-semibold">Step 1: Set Your Name</li>
               <p>
                 Let's kick things off with your name. This helps others in the
                 Git community recognize your contributions. So, let's set up
@@ -197,9 +198,58 @@ const BlogPage = () => {
                 {copiedStep === 6 && <span className="copied">Copied!</span>}
               </p>
             </ol>
+
+            <ol className="flex flex-col gap-y-2">
+              <li className="font-semibold">Step 2: Set Your Email Address</li>
+              <p>
+                Next up, let's get your email address sorted. This is crucial
+                for communication within Git. Use this command to set your
+                email:
+                <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(
+                      `git config --global user.email "email@domain.com"`,
+                      7
+                    )
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git config --global user.email "email@domain.com"
+                </code>
+                {copiedStep === 7 && <span className="copied">Copied!</span>}
+              </p>
+              <p>
+                Make sure to swap out <i>"email@domain.com"</i> with the email
+                address you use.
+              </p>
+              <p>
+                Example <br />
+                <code
+                  onClick={() =>
+                    handleCopyClick(
+                      `git config --global user.name "ervan@gmail.com"`,
+                      8
+                    )
+                  }
+                  className="bg-neutral-700 cursor-pointer"
+                >
+                  git config --global user.name "ervan@gmail.com"
+                </code>
+                {copiedStep === 8 && <span className="copied">Copied!</span>}
+              </p>
+            </ol>
           </div>
         </div>
       </div>
+
+      <footer className="md:bg-[#1C1C1C] max-w-xl mx-auto rounded-b-lg text-neutral-400">
+        <div className="p-4">
+          <p className="text-xs text-center">
+            Copyright ©2024 Ervan Kurniawan.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
