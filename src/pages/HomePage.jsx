@@ -18,8 +18,8 @@ const HomePage = () => {
         </h1>
 
         <p className="text-zinc-400 text-center font-normal">
-          I have interest and ability in programming, especially in HTML, CSS,
-          JavaScript, ReactJS, and TailwindCSS programming languages.
+          I have interest and ability in programming, especially in ReactJS, and
+          TailwindCSS programming languages.
         </p>
 
         <div className="flex justify-center">
