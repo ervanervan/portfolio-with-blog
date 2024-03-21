@@ -14,7 +14,10 @@ function App() {
         path="/blog/easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
         element={<BlogPage content={"blog1"} />}
       ></Route>
-      <Route path="/blog/test" element={<BlogPage content={"blog2"} />}></Route>
+      <Route
+        path="/blog/getting-to-know-30+-useful-command-terminal-commands-for-beginners"
+        element={<BlogPage content={"blog2"} />}
+      ></Route>
     </Routes>
   );
 }
