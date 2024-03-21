@@ -12,8 +12,9 @@ function App() {
       <Route path="/dashboard" element={<DashboardPage />}></Route>
       <Route
         path="/blog/easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
-        element={<BlogPage />}
+        element={<BlogPage content={"blog1"} />}
       ></Route>
+      <Route path="/blog/test" element={<BlogPage content={"blog2"} />}></Route>
     </Routes>
   );
 }

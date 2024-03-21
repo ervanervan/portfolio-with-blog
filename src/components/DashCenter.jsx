@@ -204,17 +204,20 @@ const DashCenter = () => {
                   </h2>
                 </div>
               </div>
-            </div>
-            <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-              <div className="flex items-center gap-x-3">
-                <div>
-                  <span className="text-sm">October 23, 2023</span>
-                  <h2 className="text-sm font-medium">
-                    Smooth Animation with React and Framer Motion
-                  </h2>
+            </div> */}
+            <Link to={"/blog/test"}>
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="flex items-center gap-x-3">
+                  <div className="flex flex-col gap-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm">March 22, 2024</span>
+                      <span className="text-[10px]">09:41 PM</span>
+                    </div>
+                    <h2 className="text-sm font-medium">Test</h2>
+                  </div>
                 </div>
               </div>
-            </div> */}
+            </Link>
             <Link
               to={
                 "/blog/easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
