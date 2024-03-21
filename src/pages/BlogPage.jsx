@@ -5,7 +5,6 @@ import BlogContent2 from "./BlogContent2";
 const BlogPage = ({ content }) => {
   let ContentComponent;
 
-  // Set the appropriate content component based on the 'content' prop
   switch (content) {
     case "blog1":
       ContentComponent = BlogContent1;
