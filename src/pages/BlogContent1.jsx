@@ -18,14 +18,14 @@ const BlogContent1 = () => {
       });
   };
   return (
-    <div className="container mx-auto md:my-8">
+    <div className="container mx-auto">
       <BlogPost
         title="Easy Steps to Push Your Project to GitHub with Git: Guide for Developers"
         description="Let's learn the simple way to push your project to GitHub! In this blog, we'll discuss the steps in a relaxed and understandable style. No need to worry about technicalities anymore because we'll be there to guide you from start to finish. Ready to embark on your journey towards smoother and more productive collaboration?"
         date={"March 19, 2024"}
         time={"09:08 AM"}
       />
-      <div className="max-w-xl mx-auto bg-[#1C1C1C] text-neutral-400">
+      <div className="max-w-xl mx-auto bg-[#1C1C1C] rounded-b-lg text-neutral-400">
         <div className="px-6 pb-6">
           <div className="border border-neutral-700 mb-10" />
           <div className="flex flex-col gap-y-3">
