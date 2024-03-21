@@ -214,10 +214,13 @@ const DashCenter = () => {
                 <div className="flex items-center gap-x-3">
                   <div className="flex flex-col gap-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm">March 22, 2024</span>
+                      <span className="text-sm">March 21, 2024</span>
                       <span className="text-[10px]">09:41 PM</span>
                     </div>
-                    <h2 className="text-sm font-medium">Test</h2>
+                    <h2 className="text-sm font-medium">
+                      Getting to Know 30+ Useful Command Terminal Commands for
+                      Beginners
+                    </h2>
                   </div>
                 </div>
               </div>

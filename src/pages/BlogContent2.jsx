@@ -6,9 +6,9 @@ const BlogContent2 = () => {
     <div className="container mx-auto">
       <BlogPost
         title="Getting to Know 30+ Useful Command Terminal Commands for Beginners"
-        description="Let's learn the simple way to push your project to GitHub! In this blog, we'll discuss the steps in a relaxed and understandable style. No need to worry about technicalities anymore because we'll be there to guide you from start to finish. Ready to embark on your journey towards smoother and more productive collaboration?"
-        date={"March 19, 2024"}
-        time={"09:08 AM"}
+        description="Hello everyone! Welcome back to our blog where we'll explore 30+ useful command terminal commands that are essential for beginners. Whether you're just starting out with the terminal or looking to expand your knowledge of available commands, you've come to the right place! Let's dive into the most basic commands and gradually move on to more advanced ones."
+        date={"March 21, 2024"}
+        time={"09:41 PM"}
       />
       <div className="max-w-xl mx-auto bg-[#1C1C1C] rounded-b-lg text-neutral-400">
         <div className="px-6 pb-6">
@@ -18,26 +18,6 @@ const BlogContent2 = () => {
               Hey, fellow developers! Pushing projects to GitHub can often be
               confusing. But don't worry, because you're in the right place to
               get help!
-            </p>
-            <p>
-              In this blog, we'll dive deep into how to push projects using Git.
-              We'll discuss it in simple and friendly language, so no need to
-              fret about technical jargon!
-            </p>
-            <p>
-              From setting up repositories, adding changes, to resolving merge
-              conflicts, we'll cover it all directly and enjoyably. So, get
-              ready to gain newfound confidence in managing your projects on
-              GitHub!
-            </p>
-            <p>
-              Come on, let's explore a more enjoyable and productive world of
-              collaboration together. We can't wait to share this knowledge with
-              you and see how your projects flourish rapidly!
-            </p>
-            <p>
-              Here are the steps to download and install Git on various
-              platforms:
             </p>
           </div>
         </div>
