@@ -1,5 +1,7 @@
 import React from "react";
 import BlogContent1 from "./BlogContent1";
+import DashLeft from "../components/DashLeft";
+import DashRight from "../components/DashRight";
 
 const BlogPage = () => {
   return (

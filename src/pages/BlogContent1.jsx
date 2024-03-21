@@ -597,13 +597,13 @@ const BlogContent1 = () => {
         </div>
       </div>
 
-      <footer className="md:bg-[#1C1C1C] max-w-xl mx-auto rounded-b-lg text-neutral-400">
+      {/* <footer className="md:bg-[#1C1C1C] max-w-xl mx-auto rounded-b-lg text-neutral-400">
         <div className="p-4">
           <p className="text-xs text-center">
             Copyright ©2024 Ervan Kurniawan.
           </p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
