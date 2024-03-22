@@ -49,18 +49,21 @@ const BlogContent2 = () => {
                 {copiedStep === 1 && <span className="copied">Copied!</span>}
               </p>
 
-              <li className="font-semibold">2. git pull</li>
+              <li className="font-semibold">
+                2. `mkdir` - Creating a New Directory
+              </li>
               <p>
-                This command is used to fetch changes from the remote repository
-                to your local repository.
+                The `mkdir` command is used to create a new directory. For
+                example, if you want to create a directory named "documents",
+                you can type:
                 <br />
                 <code
-                  onClick={() => handleCopyClick(`git pull`, 17)}
+                  onClick={() => handleCopyClick(`mkdir documents`, 2)}
                   className="bg-neutral-700 cursor-pointer"
                 >
-                  git pull
+                  mkdir documents
                 </code>
-                {copiedStep === 17 && <span className="copied">Copied!</span>}
+                {copiedStep === 2 && <span className="copied">Copied!</span>}
               </p>
 
               <li className="font-semibold">3. git branch</li>
