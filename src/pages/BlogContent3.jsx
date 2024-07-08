@@ -182,6 +182,103 @@ const BlogContent3 = () => {
                 necessary packages for this project.
               </p>
               <CodeSnippet code={codeOne} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <code className="bg-zinc-700">
+                    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2':
+                  </code>
+                  Reduces the amount of logging displayed by TensorFlow, showing
+                  only error messages. This is done to maintain console output
+                  cleanliness and focus on important messages only.
+                </p>
+                <p>
+                  <code className="bg-zinc-700">import pandas as pd:</code>
+                  Imports pandas for data manipulation.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">import json:</code>
+                  Imports the json module for saving model results in JSON
+                  format.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">import numpy as np:</code>
+                  Imports numpy for mathematical operations with arrays.{" "}
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">
+                    from sklearn.preprocessing import MinMaxScaler:{" "}
+                  </code>
+                  Imports MinMaxScaler from Scikit-learn for scaling data
+                  features.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">
+                    import matplotlib.pyplot as plt:
+                  </code>
+                  Imports matplotlib for data visualization.{" "}
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">import tensorflow as tf</code>{" "}
+                  and{" "}
+                  <code className="bg-zinc-700">
+                    from tensorflow.keras.models import Sequential
+                  </code>
+                  Imports TensorFlow and Keras for building and training neural
+                  network models.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <code className="bg-zinc-700">import tensorflow as tf</code>{" "}
+                  and{" "}
+                  <code className="bg-zinc-700">
+                    from tensorflow.keras.models import Sequential
+                  </code>
+                  : Keras, with TensorFlow as its backend, is a highly popular
+                  choice for deep learning due to its user-friendly API and
+                  strong integration with TensorFlow. This simplifies the
+                  building, training, and evaluation of neural network models.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">import pandas as pd</code>: This
+                  library is the gold standard for tabular data manipulation in
+                  Python. Pandas offers powerful and flexible tools for reading,
+                  transforming, and analyzing data.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">import numpy as np</code>: A
+                  fundamental library for array operations in Python, widely
+                  used in machine learning and data science.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">
+                    from sklearn.preprocessing import MinMaxScaler
+                  </code>
+                  : Provides numerous tools for data preprocessing and model
+                  evaluation. MinMaxScaler is highly effective for scaling data
+                  to fit within a specific range, aiding in model stability and
+                  convergence speed for neural networks.
+                </p>
+
+                <p>
+                  <code className="bg-zinc-700">
+                    import matplotlib.pyplot as plt
+                  </code>
+                  : Extremely powerful for data visualization. It is crucial for
+                  understanding and presenting data and model results clearly.
+                </p>
+              </div>
             </div>
 
             <div>
