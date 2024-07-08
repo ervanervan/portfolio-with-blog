@@ -17,7 +17,9 @@ const BlogPage = ({ content }) => {
       ContentComponent = BlogContent3;
       break;
     default:
-      ContentComponent = () => <div>Invalid content</div>;
+      ContentComponent = () => (
+        <div className="text-white">Invalid content</div>
+      );
   }
 
   return (
