@@ -40,23 +40,88 @@ const BlogContent3 = () => {
       <div className="max-w-xl mx-auto bg-[#1C1C1C] rounded-b-lg text-neutral-400">
         <div className="px-6 pb-6">
           <div className="border border-neutral-700 mb-10" />
-          <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col gap-y-12">
             {/* CONTENT */}
-            <h3 className="font-bold">
-              Firstly, we set up the initial configuration and import all
-              necessary packages for this project.
-            </h3>
-            <CodeSnippet code={codeOne} />
-            <h3 className="font-bold">
-              Next step, involves importing raw data and performing initial
-              preprocessing steps to prepare it.
-            </h3>
-            <CodeSnippet code={codeTwo} />
-            <h3 className="font-bold">
-              Next step, Subsequently, we create a dataset ready to be used in
-              the model training process.
-            </h3>
-            <CodeSnippet code={codeTwo} />
+            <div>
+              <h3 className="text-xl font-bold mb-1">01</h3>
+              <p className="mb-3">
+                Firstly, we set up the initial configuration and import all
+                necessary packages for this project.
+              </p>
+              <CodeSnippet code={codeOne} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">02</h3>
+              <p className="mb-3">
+                Next step, involves importing raw data and performing initial
+                preprocessing steps to prepare it.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">03</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">04</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">05</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">06</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">07</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">08</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-1">09</h3>
+              <p className="mb-3">
+                Next step, Subsequently, we create a dataset ready to be used in
+                the model training process.
+              </p>
+              <CodeSnippet code={codeTwo} />
+            </div>
           </div>
         </div>
       </div>

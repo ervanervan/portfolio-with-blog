@@ -30,7 +30,7 @@ const CodeSnippet = ({ code }) => {
   }, [isCopied]);
 
   return (
-    <div className="bg-[#2D2D2D] rounded-md relative">
+    <div className="bg-[#2D2D2D] rounded-md overflow-hidden relative">
       <pre className="language-javascript">
         <code className="language-javascript">{code}</code>
       </pre>
