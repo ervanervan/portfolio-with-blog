@@ -18,6 +18,10 @@ function App() {
         path="/blog/getting-to-know-30+-useful-command-terminal-commands-for-beginners"
         element={<BlogPage content={"blog2"} />}
       ></Route>
+      <Route
+        path="/blog/code-model-bidirectional-gated-recurrent-unit-(BiGRU)-for-wind-speed-prediction"
+        element={<BlogPage content={"blog3"} />}
+      ></Route>
     </Routes>
   );
 }
