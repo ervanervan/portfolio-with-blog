@@ -225,6 +225,7 @@ const DashCenter = () => {
                 </div>
               </div>
             </Link>
+
             <Link
               to={
                 "/blog/easy-steps-to-push-your-project-to-gitHub-with-git:guide-for-developers"
@@ -240,6 +241,27 @@ const DashCenter = () => {
                     <h2 className="text-sm font-medium">
                       Easy Steps to Push Your Project to GitHub with Git: Guide
                       for Developers
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link
+              to={
+                "/blog/code-model-bidirectional-gated-recurrent-unit-(BiGRU)-for-wind-speed-prediction"
+              }
+            >
+              <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                <div className="flex items-center gap-x-3">
+                  <div className="flex flex-col gap-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm">July 08, 2024</span>
+                      <span className="text-[10px]">03:50 PM</span>
+                    </div>
+                    <h2 className="text-sm font-medium">
+                      Code model bidirectional gated recurrent unit (BiGRU) for
+                      wind speed prediction
                     </h2>
                   </div>
                 </div>
