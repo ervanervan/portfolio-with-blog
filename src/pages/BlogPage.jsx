@@ -1,6 +1,7 @@
 import React from "react";
 import BlogContent1 from "./BlogContent1";
 import BlogContent2 from "./BlogContent2";
+import BlogContent3 from "./BlogContent3";
 
 const BlogPage = ({ content }) => {
   let ContentComponent;
@@ -11,6 +12,9 @@ const BlogPage = ({ content }) => {
       break;
     case "blog2":
       ContentComponent = BlogContent2;
+      break;
+    case "blog3":
+      ContentComponent = BlogContent3;
       break;
     default:
       ContentComponent = () => <div>Invalid content</div>;
