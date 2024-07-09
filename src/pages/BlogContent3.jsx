@@ -249,6 +249,23 @@ const BlogContent3 = () => {
                 for model evaluation.
               </p>
               <CodeSnippet code={codeFour} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <span className="font-medium">Splitting data</span> : Dividing
+                  the dataset into 70% for training and 30% for testing.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">Split Ratio</span> : The 70-30
+                  ratio is a common standard in machine learning. It provides
+                  enough data to train the model while retaining a substantial
+                  amount of data to test the model's generalization ability.
+                </p>
+              </div>
             </div>
 
             <div>
