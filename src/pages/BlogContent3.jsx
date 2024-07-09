@@ -406,6 +406,41 @@ const BlogContent3 = () => {
                 and plotted for better visualization.
               </p>
               <CodeSnippet code={codeEight} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <span className="font-medium">Saving model performance</span>{" "}
+                  : Saving the model's performance results in JSON format for
+                  documentation and further analysis.
+                </p>
+                <p>
+                  <span className="font-medium">Saving the model</span> : Saving
+                  the trained model in Keras format.
+                </p>
+                <p>
+                  <span className="font-medium">Visualizing results</span> :
+                  Plotting actual and predicted data for training and testing to
+                  evaluate the model's performance visually.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">
+                    Model and Performance Storage
+                  </span>{" "}
+                  : Saving the model allows for reuse and deployment in the
+                  future. Performance metrics in JSON make documentation and
+                  analysis easier.
+                </p>
+                <p>
+                  <span className="font-medium">Visualizing Results</span> :
+                  Visualization is crucial to ensure the model is working well
+                  and to present the results to stakeholders in an easily
+                  understandable way.
+                </p>
+              </div>
             </div>
 
             <div>
