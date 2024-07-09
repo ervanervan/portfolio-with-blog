@@ -275,6 +275,54 @@ const BlogContent3 = () => {
                 the prepared training data.
               </p>
               <CodeSnippet code={codeFive} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <h5 className="font-medium">Creating the model:</h5>
+                <p>
+                  <span className="font-medium">Bidirectional GRU layer</span> :
+                  Using two bidirectional GRU layers to capture information from
+                  the time series in both forward and backward directions.
+                </p>
+                <p>
+                  <span className="font-medium">Dense layer</span> : An output
+                  layer with one neuron and sigmoid activation to produce the
+                  prediction value.
+                </p>
+                <p>
+                  <span className="font-medium">Compiling the model</span> :
+                  Using the Adam optimizer and mean squared error (MSE) loss
+                  function. The metric used is mean absolute error (MAE).
+                </p>
+
+                <h5 className="font-medium">Training the model:</h5>
+                <p>
+                  Training the model with training data using 250 epochs and a
+                  batch size of 16, and setting aside 20% of the training data
+                  for validation.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">Bidirectional GRU</span> : GRU
+                  is faster to train and more efficient than LSTM, while still
+                  effectively capturing temporal relationships. Bidirectional
+                  GRU helps the model capture information from both directions
+                  (past and future), which is crucial in time series analysis.
+                </p>
+                <p>
+                  <span className="font-medium">Adam Optimizer</span> : This
+                  optimizer is popular due to its adaptive learning rate
+                  adjustments, making it fast and efficient in convergence.
+                </p>
+                <p>
+                  <span className="font-medium">MSE and MAE</span> : MSE is used
+                  as the loss function because it penalizes larger errors more
+                  heavily, while MAE is used as an additional metric to provide
+                  a more balanced view of the model's performance.
+                </p>
+              </div>
             </div>
 
             <div>
@@ -284,6 +332,54 @@ const BlogContent3 = () => {
                 evaluate the model's performance.
               </p>
               <CodeSnippet code={codeSix} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <h5 className="font-medium">Creating the model:</h5>
+                <p>
+                  <span className="font-medium">Bidirectional GRU layer</span> :
+                  Using two bidirectional GRU layers to capture information from
+                  the time series in both forward and backward directions.
+                </p>
+                <p>
+                  <span className="font-medium">Dense layer</span> : An output
+                  layer with one neuron and sigmoid activation to produce the
+                  prediction value.
+                </p>
+                <p>
+                  <span className="font-medium">Compiling the model</span> :
+                  Using the Adam optimizer and mean squared error (MSE) loss
+                  function. The metric used is mean absolute error (MAE).
+                </p>
+
+                <h5 className="font-medium">Training the model:</h5>
+                <p>
+                  Training the model with training data using 250 epochs and a
+                  batch size of 16, and setting aside 20% of the training data
+                  for validation.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">Bidirectional GRU</span> : GRU
+                  is faster to train and more efficient than LSTM, while still
+                  effectively capturing temporal relationships. Bidirectional
+                  GRU helps the model capture information from both directions
+                  (past and future), which is crucial in time series analysis.
+                </p>
+                <p>
+                  <span className="font-medium">Adam Optimizer</span> : This
+                  optimizer is popular due to its adaptive learning rate
+                  adjustments, making it fast and efficient in convergence.
+                </p>
+                <p>
+                  <span className="font-medium">MSE and MAE</span> : MSE is used
+                  as the loss function because it penalizes larger errors more
+                  heavily, while MAE is used as an additional metric to provide
+                  a more balanced view of the model's performance.
+                </p>
+              </div>
             </div>
 
             <div>
