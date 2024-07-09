@@ -360,6 +360,43 @@ const BlogContent3 = () => {
                 wind speeds.
               </p>
               <CodeSnippet code={codeSeven} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <span className="font-medium">Prediction</span> : Making
+                  predictions for the training and testing data.
+                </p>
+                <p>
+                  <span className="font-medium">Inverse Transform</span> :
+                  Returning the predictions and actual values to the original
+                  scale for evaluation.
+                </p>
+                <p>
+                  <span className="font-medium">Calculating metrics</span> :
+                  Using RMSE, MAPE, and accuracy to evaluate the model's
+                  performance.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <h5 className="font-medium">Evaluation Metrics:</h5>
+                <p>
+                  <span className="font-medium">RMSE</span> : Measures the
+                  average prediction error in the original data units. It is
+                  highly sensitive to large errors.
+                </p>
+                <p>
+                  <span className="font-medium">MAPE</span> : Measures the
+                  average error in percentage terms, making it easy to
+                  interpret.
+                </p>
+                <p>
+                  <span className="font-medium">Accuracy</span> : Provides an
+                  overview of how close the predictions are to the actual values
+                  in percentage terms.
+                </p>
+              </div>
             </div>
 
             <div>
