@@ -210,11 +210,14 @@ const BlogContent3 = () => {
               <div>
                 <h4 className="text-md font-bold my-5">Explanation:</h4>
                 <p>
-                  Function{" "}
-                  <code className="language-javascript">create_dataset</code> :
-                  Creates a dataset for training by sliding a time window across
-                  the data. Each <code className="language-javascript">X</code>{" "}
-                  contains a sequence of time series data, and{" "}
+                  <span className="font-medium">
+                    Function{" "}
+                    <code className="language-javascript">create_dataset</code>
+                  </span>{" "}
+                  : Creates a dataset for training by sliding a time window
+                  across the data. Each{" "}
+                  <code className="language-javascript">X</code> contains a
+                  sequence of time series data, and{" "}
                   <code className="language-javascript">Y</code> is the data
                   value at the next time step.
                 </p>
@@ -450,7 +453,55 @@ const BlogContent3 = () => {
                 for the next 90 days.
               </p>
               <CodeSnippet code={codeNine} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <span className="font-medium">
+                    Function{" "}
+                    <code className="language-javascript">
+                      predict_wind_speed_90days
+                    </code>{" "}
+                  </span>
+                  : Makes predictions using the model for the next 90 days.
+                </p>
+                <p>
+                  <span className="font-medium">Loop for 90 days</span> :
+                  Generates predictions for the next 90 days by updating the
+                  input data with the latest predictions.
+                </p>
+                <p>
+                  <span className="font-medium">Visualization</span> : Plots the
+                  predicted wind speeds for the next 90 days.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">Continuous Prediction</span> :
+                  Using previous predictions as input for the next prediction
+                  allows for continuous forecasting. This is very useful in
+                  real-world applications such as weather forecasting.
+                </p>
+                <p>
+                  <span className="font-medium">Visualization</span> : Making
+                  90-day predictions provides insights into future wind speed
+                  trends, which is important for planning and decision-making.
+                </p>
+              </div>
             </div>
+          </div>
+          <div className="border border-neutral-700 my-7" />
+          <div className="flex flex-col gap-y-3">
+            <p>
+              Now you have learned the steps to implement a Bidirectional GRU
+              model in TensorFlow/Keras for wind speed prediction. By
+              understanding these concepts and utilizing tools such as
+              visualization and metric evaluation, you can develop more accurate
+              and meaningful predictions. Keep exploring and applying this
+              knowledge to tackle forecasting challenges across various domains!
+            </p>
+            <p>Thank you for reading. See you in the next post!</p>
           </div>
         </div>
       </div>
