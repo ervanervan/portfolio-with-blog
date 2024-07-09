@@ -11,7 +11,7 @@ import {
   codeSeven,
   codeEight,
   codeNine,
-} from "./../../codeSnippets";
+} from "./../../codeSnippets.js";
 
 const BlogContent3 = () => {
   return (
@@ -38,61 +38,69 @@ const BlogContent3 = () => {
               <div>
                 <h4 className="text-md font-bold my-5">Explanation:</h4>
                 <p>
-                  <code className="bg-zinc-700">
-                    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2':
+                  <code className="language-javascript">
+                    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
                   </code>
-                  Reduces the amount of logging displayed by TensorFlow, showing
-                  only error messages. This is done to maintain console output
-                  cleanliness and focus on important messages only.
+                  : Reduces the amount of logging displayed by TensorFlow,
+                  showing only error messages. This is done to maintain console
+                  output cleanliness and focus on important messages only.
                 </p>
                 <p>
-                  <code className="bg-zinc-700">import pandas as pd:</code>
-                  Imports pandas for data manipulation.
+                  <code className="language-javascript">
+                    import pandas as pd
+                  </code>
+                  : Imports pandas for data manipulation.
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">import json:</code>
+                  <code className="language-javascript">import json</code>:
                   Imports the json module for saving model results in JSON
                   format.
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">import numpy as np:</code>
-                  Imports numpy for mathematical operations with arrays.{" "}
+                  <code className="language-javascript">
+                    import numpy as np
+                  </code>
+                  : Imports numpy for mathematical operations with arrays.{" "}
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">
-                    from sklearn.preprocessing import MinMaxScaler:{" "}
+                  <code className="language-javascript">
+                    from sklearn.preprocessing import MinMaxScaler{" "}
                   </code>
-                  Imports MinMaxScaler from Scikit-learn for scaling data
+                  : Imports MinMaxScaler from Scikit-learn for scaling data
                   features.
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">
-                    import matplotlib.pyplot as plt:
+                  <code className="language-javascript">
+                    import matplotlib.pyplot as plt
                   </code>
-                  Imports matplotlib for data visualization.{" "}
+                  : Imports matplotlib for data visualization.{" "}
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">import tensorflow as tf</code>{" "}
+                  <code className="language-javascript">
+                    import tensorflow as tf
+                  </code>{" "}
                   and{" "}
-                  <code className="bg-zinc-700">
+                  <code className="language-javascript">
                     from tensorflow.keras.models import Sequential
                   </code>
-                  Imports TensorFlow and Keras for building and training neural
-                  network models.
+                  : Imports TensorFlow and Keras for building and training
+                  neural network models.
                 </p>
               </div>
 
               <div>
                 <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
                 <p>
-                  <code className="bg-zinc-700">import tensorflow as tf</code>{" "}
+                  <code className="language-javascript">
+                    import tensorflow as tf
+                  </code>{" "}
                   and{" "}
-                  <code className="bg-zinc-700">
+                  <code className="language-javascript">
                     from tensorflow.keras.models import Sequential
                   </code>
                   : Keras, with TensorFlow as its backend, is a highly popular
@@ -102,20 +110,24 @@ const BlogContent3 = () => {
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">import pandas as pd</code>: This
-                  library is the gold standard for tabular data manipulation in
-                  Python. Pandas offers powerful and flexible tools for reading,
-                  transforming, and analyzing data.
+                  <code className="language-javascript">
+                    import pandas as pd
+                  </code>
+                  : This library is the gold standard for tabular data
+                  manipulation in Python. Pandas offers powerful and flexible
+                  tools for reading, transforming, and analyzing data.
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">import numpy as np</code>: A
-                  fundamental library for array operations in Python, widely
+                  <code className="language-javascript">
+                    import numpy as np
+                  </code>
+                  : A fundamental library for array operations in Python, widely
                   used in machine learning and data science.
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">
+                  <code className="language-javascript">
                     from sklearn.preprocessing import MinMaxScaler
                   </code>
                   : Provides numerous tools for data preprocessing and model
@@ -125,7 +137,7 @@ const BlogContent3 = () => {
                 </p>
 
                 <p>
-                  <code className="bg-zinc-700">
+                  <code className="language-javascript">
                     import matplotlib.pyplot as plt
                   </code>
                   : Extremely powerful for data visualization. It is crucial for
@@ -141,6 +153,51 @@ const BlogContent3 = () => {
                 preprocessing steps to prepare it.
               </p>
               <CodeSnippet code={codeTwo} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  <span className="font-medium">Importing data</span>: Fetching
+                  data from the given URL using{" "}
+                  <code className="language-javascript">pd.read_csv</code>.
+                </p>
+                <p>
+                  <span className="font-medium">
+                    Converting 'Tanggal' column
+                  </span>
+                  : Changing the 'Tanggal' column from string to datetime
+                  objects for easier manipulation. The format '%d-%m-%Y'
+                  indicates that the dates in the original data are written as
+                  day-month-year.
+                </p>
+                <p>
+                  <span className="font-medium">
+                    Setting 'Tanggal' as index
+                  </span>
+                  : Setting the 'Tanggal' column as the index to facilitate
+                  easier access and manipulation of time-based data.
+                </p>
+                <p>
+                  <span className="font-medium">Scaling the data</span>: Using{" "}
+                  <code className="language-javascript">MinMaxScaler</code> to
+                  scale the data into the range of 0-1, which helps in making
+                  neural network model training more stable and faster to
+                  converge.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">MinMaxScaler</span>: Uniform
+                  data scaling is crucial for neural networks. A 0-1 scale
+                  reduces the risk of imbalanced weightings and accelerates
+                  convergence during training. Other alternatives like{" "}
+                  <code className="language-javascript">StandardScaler</code>{" "}
+                  (which standardizes data to a distribution with mean=0 and
+                  std=1) may not be as effective for data that is not normally
+                  distributed.
+                </p>
+              </div>
             </div>
 
             <div>
@@ -150,6 +207,39 @@ const BlogContent3 = () => {
                 training process.
               </p>
               <CodeSnippet code={codeThree} />
+              <div>
+                <h4 className="text-md font-bold my-5">Explanation:</h4>
+                <p>
+                  Function{" "}
+                  <code className="language-javascript">create_dataset</code> :
+                  Creates a dataset for training by sliding a time window across
+                  the data. Each <code className="language-javascript">X</code>{" "}
+                  contains a sequence of time series data, and{" "}
+                  <code className="language-javascript">Y</code> is the data
+                  value at the next time step.
+                </p>
+                <p>
+                  <span className="font-medium">Timeseries = 5</span> : Uses the
+                  last 5 data points to predict the next data point.
+                </p>
+                <p>
+                  <span className="font-medium">Reshape data</span>: Reshapes{" "}
+                  <code className="language-javascript">X</code> to (number of
+                  samples, time series length, number of features) to match the
+                  model's input requirements.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-md font-bold my-5">Reasons for usage:</h4>
+                <p>
+                  <span className="font-medium">Sliding Window Technique</span>{" "}
+                  : This technique is highly effective for capturing temporal
+                  relationships in time series data. It is more flexible than
+                  approaches using a specific lag, as each data point within the
+                  time window can provide valuable information for prediction.
+                </p>
+              </div>
             </div>
 
             <div>
