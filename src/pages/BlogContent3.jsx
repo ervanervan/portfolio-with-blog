@@ -447,7 +447,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">09</h3>
+              <h3 className="text-xl font-bold mb-1">9</h3>
               <p className="mb-3">
                 Finally, we'll utilize the trained model to forecast wind speeds
                 for the next 90 days.
