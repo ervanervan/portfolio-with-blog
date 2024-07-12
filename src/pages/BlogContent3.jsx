@@ -403,7 +403,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">08</h3>
+              <h3 className="text-xl font-bold mb-1">8</h3>
               <p className="mb-3">
                 The prediction results will be saved in the appropriate format
                 and plotted for better visualization.
