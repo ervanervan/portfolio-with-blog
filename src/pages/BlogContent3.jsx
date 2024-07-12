@@ -246,7 +246,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">04</h3>
+              <h3 className="text-xl font-bold mb-1">4</h3>
               <p className="mb-3">
                 Data will be randomly split into training and testing datasets
                 for model evaluation.
