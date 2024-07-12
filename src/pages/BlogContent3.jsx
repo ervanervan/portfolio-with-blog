@@ -329,7 +329,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">06</h3>
+              <h3 className="text-xl font-bold mb-1">6</h3>
               <p className="mb-3">
                 After training completes, the results will be visualized to
                 evaluate the model's performance.
