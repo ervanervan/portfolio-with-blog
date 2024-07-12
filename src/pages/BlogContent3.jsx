@@ -272,7 +272,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">05</h3>
+              <h3 className="text-xl font-bold mb-1">5</h3>
               <p className="mb-3">
                 We'll construct the BiGRU model architecture and train it using
                 the prepared training data.
