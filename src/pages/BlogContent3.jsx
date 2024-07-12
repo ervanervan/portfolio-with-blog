@@ -29,7 +29,7 @@ const BlogContent3 = () => {
           <div className="flex flex-col gap-y-12">
             {/* CONTENT */}
             <div>
-              <h3 className="text-xl font-bold mb-1">01</h3>
+              <h3 className="text-xl font-bold mb-1">1</h3>
               <p className="mb-3">
                 Firstly, we set up the initial configuration and import all
                 necessary packages for this project.
@@ -147,7 +147,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">02</h3>
+              <h3 className="text-xl font-bold mb-1">2</h3>
               <p className="mb-3">
                 Next step, involves importing raw data and performing initial
                 preprocessing steps to prepare it.
