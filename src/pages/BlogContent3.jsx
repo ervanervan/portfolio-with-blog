@@ -357,7 +357,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">07</h3>
+              <h3 className="text-xl font-bold mb-1">7</h3>
               <p className="mb-3">
                 We'll evaluate the model to measure its accuracy in predicting
                 wind speeds.
