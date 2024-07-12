@@ -201,7 +201,7 @@ const BlogContent3 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-1">03</h3>
+              <h3 className="text-xl font-bold mb-1">3</h3>
               <p className="mb-3">
                 Subsequently, we create a dataset ready to be used in the model
                 training process.
